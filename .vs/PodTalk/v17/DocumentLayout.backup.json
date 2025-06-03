@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\areas\\admin\\controllers\\topiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\areas\\admin\\controllers\\topiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\areas\\admin\\views\\topic\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\areas\\admin\\views\\topic\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\datacontext\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\datacontext\\entities\\topic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\areas\\admin\\views\\topic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\areas\\admin\\views\\topic\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\areas\\admin\\views\\topic\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\areas\\admin\\views\\topic\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\areas\\admin\\views\\topic\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\areas\\admin\\views\\topic\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\areas\\admin\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Migrations\\20250603073150_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PodTalk\\Migrations\\20250603073150_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|c:\\users\\hp\\desktop\\podtalk\\podtalk\\podtalk\\areas\\admin\\controllers\\speakercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620D50F6-1754-4DE0-93B6-0F2845E569C0}|PodTalk\\PodTalk.csproj|solutionrelative:podtalk\\areas\\admin\\controllers\\speakercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 14,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,28 +74,184 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Topic\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PodTalk\\Areas\\Admin\\Views\\Topic\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Topic\\Edit.cshtml",
+              "RelativeToolTip": "PodTalk\\Areas\\Admin\\Views\\Topic\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T11:01:25.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Topic\\Delete.cshtml",
+              "RelativeDocumentMoniker": "PodTalk\\Areas\\Admin\\Views\\Topic\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Topic\\Delete.cshtml",
+              "RelativeToolTip": "PodTalk\\Areas\\Admin\\Views\\Topic\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T10:53:12.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Topic\\Details.cshtml",
+              "RelativeDocumentMoniker": "PodTalk\\Areas\\Admin\\Views\\Topic\\Details.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Topic\\Details.cshtml",
+              "RelativeToolTip": "PodTalk\\Areas\\Admin\\Views\\Topic\\Details.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T09:58:11.425Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "PodTalk\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "PodTalk\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T09:05:27.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "PodTalk\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "PodTalk\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAOQAAABeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T04:23:39.903Z",
+              "WhenOpened": "2025-06-03T08:57:02.9Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "PodTalk\\Models\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "PodTalk\\Models\\HomeViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:40:49.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
-              "RelativeDocumentMoniker": "PodTalk\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
-              "RelativeToolTip": "PodTalk\\Areas\\Admin\\Views\\DashBoard\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAnAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "PodTalk\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "PodTalk\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-03T03:59:43.181Z",
+              "WhenOpened": "2025-06-03T07:38:02.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250603073150_Init.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Migrations\\20250603073150_Init.cs",
+              "RelativeDocumentMoniker": "PodTalk\\Migrations\\20250603073150_Init.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Migrations\\20250603073150_Init.cs",
+              "RelativeToolTip": "PodTalk\\Migrations\\20250603073150_Init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:31:50.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\appsettings.json",
+              "RelativeDocumentMoniker": "PodTalk\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\appsettings.json",
+              "RelativeToolTip": "PodTalk\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-03T07:31:13.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Topic.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\DataContext\\Entities\\Topic.cs",
+              "RelativeDocumentMoniker": "PodTalk\\DataContext\\Entities\\Topic.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\DataContext\\Entities\\Topic.cs",
+              "RelativeToolTip": "PodTalk\\DataContext\\Entities\\Topic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:21:46.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Program.cs",
+              "RelativeDocumentMoniker": "PodTalk\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Program.cs",
+              "RelativeToolTip": "PodTalk\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:12:49.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Topic\\Index.cshtml",
+              "RelativeDocumentMoniker": "PodTalk\\Areas\\Admin\\Views\\Topic\\Index.cshtml",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Views\\Topic\\Index.cshtml",
+              "RelativeToolTip": "PodTalk\\Areas\\Admin\\Views\\Topic\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAADQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-03T07:04:52.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SpeakerController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Controllers\\SpeakerController.cs",
+              "RelativeDocumentMoniker": "PodTalk\\Areas\\Admin\\Controllers\\SpeakerController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Controllers\\SpeakerController.cs",
+              "RelativeToolTip": "PodTalk\\Areas\\Admin\\Controllers\\SpeakerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:04:17.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TopicController.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Controllers\\TopicController.cs",
+              "RelativeDocumentMoniker": "PodTalk\\Areas\\Admin\\Controllers\\TopicController.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\PodTalk\\PodTalk\\PodTalk\\Areas\\Admin\\Controllers\\TopicController.cs",
+              "RelativeToolTip": "PodTalk\\Areas\\Admin\\Controllers\\TopicController.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAkwGcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-03T07:03:58.378Z",
               "EditorCaption": ""
             }
           ]

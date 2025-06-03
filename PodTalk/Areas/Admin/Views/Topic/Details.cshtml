@@ -1,0 +1,43 @@
+﻿@model PodTalk.DataContext.Entities.Topic
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h3>@Model.Name</h3>
+        </div>
+
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <img src="~/admin/img/illustrations/@Model.ImageUrl" alt="@Model.Name" class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-8">
+                    <p><strong>ID:</strong> @Model.Id</p>
+                    <p><strong>Episode Count:</strong> @(Model.EpisodeCount ?? 0)</p>
+                   
+                   
+                </div>
+            </div>
+
+            <hr />
+
+            <h5>Episodes:</h5>
+            <ul>
+                @foreach (var ep in Model.Episodes)
+                {
+                    <li>@ep.Title</li> <!-- Episode modelinde Title varsa -->
+                }
+            </ul>
+
+            <h5>Speakers:</h5>
+            <ul>
+                @foreach (var sp in Model.SpeakerTopics)
+                {
+                    <li>@sp.Speaker.UserName</li> 
+                }
+            </ul>
+
+            <a asp-area="Admin" asp-controller="Topic" asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>
+        </div>
+    </div>
+</div>
