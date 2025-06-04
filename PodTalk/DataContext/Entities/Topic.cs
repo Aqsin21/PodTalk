@@ -7,10 +7,10 @@ namespace PodTalk.DataContext.Entities
         public int Id { get; set; }
 
 
-        public int? EpisodeCount { get; set; }
+        public int EpisodeCount { get; set; }
         public required string Name { get; set; }
 
-        public required string ImageUrl { get; set; } 
+        public  string? ImageUrl { get; set; } 
 
         public List<Episode> Episodes { get; set; } = [];
 

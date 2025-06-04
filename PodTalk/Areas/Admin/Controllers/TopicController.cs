@@ -1,19 +1,15 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using PodTalk.Areas.Admin.Data;
 using PodTalk.DataContext;
 using PodTalk.DataContext.Entities;
 
 namespace PodTalk.Areas.Admin.Controllers
 {
-    public class TopicController : AdminController
+    public class TopicController(AppDbContext dbContext) : AdminController
     {
 
-        private readonly AppDbContext _dbContext;
-
-        public TopicController(AppDbContext dbContext)
-        {
-            _dbContext = dbContext;
-        }
+        private readonly AppDbContext _dbContext = dbContext;
 
         public IActionResult Index()
         {
@@ -66,42 +62,97 @@ namespace PodTalk.Areas.Admin.Controllers
             var topic = await _dbContext.Topics.FindAsync(id);
             if (topic == null)
                 return NotFound();
-
-            return View(topic);
+            var viewModel = new TopicEditViewModel
+            {
+                Id = topic.Id,
+                Name = topic.Name,
+                EpisodeCount = topic.EpisodeCount,
+                ExistingImageUrl = topic.ImageUrl
+            };
+                return View(viewModel);
         }
+        
 
         [HttpPost]
-        public async Task<IActionResult> Edit(int id, Topic updatedTopic, IFormFile? ImageFile)
+        public async Task<IActionResult> Edit(int id, TopicEditViewModel model)
         {
-            if (id != updatedTopic.Id)
+            if (id != model.Id)
                 return BadRequest();
 
             if (!ModelState.IsValid)
-                return View(updatedTopic);
+                return View(model);
 
             var existingTopic = await _dbContext.Topics.FindAsync(id);
             if (existingTopic == null)
                 return NotFound();
 
-            existingTopic.Name = updatedTopic.Name;
-            existingTopic.EpisodeCount = updatedTopic.EpisodeCount;
+            
+            existingTopic.Name = model.Name;
+            existingTopic.EpisodeCount = model.EpisodeCount;
 
-            if (ImageFile != null && ImageFile.Length > 0)
+            if (model.NewImageFile != null && model.NewImageFile.Length >0)
             {
-                var fileName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
-                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "admin", "images", fileName);
-
+                var newFileName = Guid.NewGuid().ToString() + Path.GetExtension(model.NewImageFile.FileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", newFileName);
                 using (var stream = new FileStream(path, FileMode.Create))
                 {
-                    await ImageFile.CopyToAsync(stream);
+                    await model.NewImageFile.CopyToAsync(stream);
                 }
 
-                existingTopic.ImageUrl = fileName;
+                existingTopic.ImageUrl = newFileName;
             }
+            if (!string.IsNullOrEmpty(existingTopic.ImageUrl))
+            {
+                var oldImagePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", existingTopic.ImageUrl);
+                if (System.IO.File.Exists(oldImagePath))
+                    System.IO.File.Delete(oldImagePath);
+            }
+
+           
 
             await _dbContext.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
+
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create(TopicCreateViewModel model)
+        {
+            if (!ModelState.IsValid)
+                return View(model);
+
+            string? fileName = null;
+
+            if (model.ImageFile != null && model.ImageFile.Length > 0)
+            {
+                fileName = Guid.NewGuid().ToString() + Path.GetExtension(model.ImageFile.FileName);
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", fileName);
+
+                using var stream = new FileStream(path, FileMode.Create);
+                await model.ImageFile.CopyToAsync(stream);
+            }
+
+
+            var topic = new Topic
+            {
+                Name = model.Name,
+                EpisodeCount = model.EpisodeCount,
+                ImageUrl = fileName 
+            };
+
+            await _dbContext.Topics.AddAsync(topic);
+            await _dbContext.SaveChangesAsync();
+
+            return RedirectToAction(nameof(Index));
+
+
+        }
     }
 }

@@ -85,6 +85,7 @@ wwwroot\css\templatemo-pod-talk.css
 wwwroot\favicon.ico
 wwwroot\fonts\bootstrap-icons.woff
 wwwroot\fonts\bootstrap-icons.woff2
+wwwroot\images\74e08e8b-adc0-40e8-88d7-9ff1a47048d8.jpg
 wwwroot\images\app-store.png
 wwwroot\images\medium-shot-young-people-recording-podcast.jpg
 wwwroot\images\play-store.png
