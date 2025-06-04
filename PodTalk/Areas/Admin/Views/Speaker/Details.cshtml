@@ -1,0 +1,40 @@
+﻿@model PodTalk.DataContext.Entities.Speaker
+
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-success text-white">
+            <h3>@Model.UserName</h3>
+        </div>
+
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-4">
+                    <img src="~/images/@Model.CoverImageUrl" alt="@Model.UserName" class="img-fluid rounded shadow" />
+                </div>
+                <div class="col-md-8">
+                    <p><strong>ID:</strong> @Model.Id</p>
+                </div>
+            </div>
+
+            <hr />
+
+            <h5>Topics:</h5>
+            <ul>
+                @foreach (var topic in Model.SpeakerTopics)
+                {
+                    <li>@topic.Topic.Name</li>
+                }
+            </ul>
+
+            <h5>Episodes:</h5>
+            <ul>
+                @foreach (var ep in Model.Episodes)
+                {
+                    <li>@ep.Title</li>
+                }
+            </ul>
+
+            <a asp-area="Admin" asp-controller="Speaker" asp-action="Index" class="btn btn-secondary mt-3">Back to List</a>
+        </div>
+    </div>
+</div>

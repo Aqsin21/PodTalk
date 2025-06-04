@@ -13,7 +13,7 @@
                 </div>
                 <div class="col-md-8">
                     <p><strong>ID:</strong> @Model.Id</p>
-                    <p><strong>Episode Count:</strong> @(Model.EpisodeCount  )</p>
+                    <p><strong>Episode Count:</strong> @(Model.EpisodeCount)</p>
                    
                    
                 </div>
@@ -25,7 +25,7 @@
             <ul>
                 @foreach (var ep in Model.Episodes)
                 {
-                    <li>@ep.Title</li> <!-- Episode modelinde Title varsa -->
+                    <li>@ep.Title</li>
                 }
             </ul>
 

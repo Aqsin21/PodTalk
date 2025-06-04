@@ -1,0 +1,35 @@
+﻿@model PodTalk.Areas.Admin.Data.SpeakerEditViewModel
+
+
+<form asp-action="Edit" method="post" enctype="multipart/form-data">
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="ExistingCoverImageUrl" />
+
+    <div class="mb-3">
+        <label asp-for="UserName" class="form-label"></label>
+        <input asp-for="UserName" class="form-control" />
+        <span asp-validation-for="UserName" class="text-danger"></span>
+    </div>
+
+    
+    <div class="mb-3">
+        <label>Current Image:</label><br />
+        @if (!string.IsNullOrEmpty(Model.ExistingCoverImageUrl))
+        {
+            <img src="~/images/@Model.ExistingCoverImageUrl" width="150" />
+        }
+        else
+        {
+            <p>No image uploaded.</p>
+        }
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="NewCoverImageFile" class="form-label">Upload New Image</label>
+        <input asp-for="NewCoverImageFile" class="form-control" type="file" />
+        <span asp-validation-for="NewCoverImageFile" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">Cancel</a>
+</form>
