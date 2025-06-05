@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PodTalk")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b52ad48fb6761f07ab4fe2eae0582f59096a5fcc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fa878d7100116313dd02728541d8506813212be8")]
 [assembly: System.Reflection.AssemblyProductAttribute("PodTalk")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PodTalk")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
